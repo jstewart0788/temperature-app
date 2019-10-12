@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~app.b178e826.js"
   },
   {
+    "revision": "5e695e96a003a79f7f97060bf49409a9",
+    "url": "/expo-service-worker.js"
+  },
+  {
+    "revision": "9ada56bcbd74aee12e94fa6848a9b5a7",
+    "url": "/static/js/2.41e898c8.chunk.js.gz"
+  },
+  {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
     "url": "/favicon.ico"
-  },
-  {
-    "revision": "5d2c14ec2aad11360f2412b0c1ffe062",
-    "url": "/static/js/2.9fddea60.chunk.js.gz"
-  },
-  {
-    "revision": "020fd499a2d2bc45c4c3b6021e472b43",
-    "url": "/register-service-worker.js"
   },
   {
     "revision": "c6aef942e3668158ec29d4adcb2e768f",
@@ -60,27 +60,27 @@ self.__precacheManifest = [
     "url": "/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "2664259a2c5decb8c468",
-    "url": "/static/js/2.9fddea60.chunk.js"
+    "revision": "e7de37f186b2ae5d70ed",
+    "url": "/static/js/2.41e898c8.chunk.js"
   },
   {
     "revision": "872545dde71de3842234bf6afe80c4cb",
     "url": "/./fonts/FontAwesome5_Solid.ttf"
   },
   {
-    "revision": "d0c694b562b2208635f250762cd7fc79",
-    "url": "/serve.json"
+    "revision": "020fd499a2d2bc45c4c3b6021e472b43",
+    "url": "/register-service-worker.js"
   },
   {
-    "revision": "5e695e96a003a79f7f97060bf49409a9",
-    "url": "/expo-service-worker.js"
+    "revision": "d0c694b562b2208635f250762cd7fc79",
+    "url": "/serve.json"
   },
   {
     "revision": "6daf93f982f908c6c720205c2773b81f",
     "url": "/manifest.json"
   },
   {
-    "revision": "d885c805b43bf8a0b37fc7ff74fdc20e",
+    "revision": "4a8d41e6738d74bb46452d62d6ac6742",
     "url": "/index.html"
   },
   {
