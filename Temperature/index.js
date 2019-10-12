@@ -9,10 +9,11 @@ function Temperature(props) {
     async function fetchTemp() {
       try {
         const response = await fetch(
-          "https://stark-eyrie-31043.herokuapp.com/temperature"
+          "https://stark-eyrie-31043.herokuapp.com/api/temperature"
         );
         if (response.status >= 400) throw "Error Fetching Data!";
-        const { temp } = await response.json();
+        let { temp } = await response.json();
+        temp = (temp / 1000 * 9 / 5 + 32).toFixed(1);
         setTemp(temp);
       } catch (error) {
         setError(true);
@@ -25,7 +26,7 @@ function Temperature(props) {
       <View style={styles.tempView}>
         <Text style={styles.titleText}>What's the Temperature?</Text>
         {!temp && !error && <ActivityIndicator size="large" color="#fff" />}
-        {temp && temp > 0 && temp < 120 && (
+        {temp && (
           <Text style={styles.temperature}>{temp}</Text>
         )}
         {error && <Text style={styles.error}>Error . . .</Text>}
