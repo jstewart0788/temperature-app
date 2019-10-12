@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "http://jstewart0788.github.io",
+  "homepage": "http://jstewart0788.github.io/temperature-app",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
